@@ -1,0 +1,41 @@
+[
+	{
+		"id":			"path",
+		"label":		"Output Path",
+		"type":			"text",
+		"default":		"",
+	},
+    
+    {
+        "id":           "eject",
+        "label":        "Eject disc when complete",
+        "type":         "bool",
+        "default":      "true",
+    },
+    
+    {   "id":           "log",
+        "label":        "Enable logging (warning: generates large file)",
+        "type":         "bool",
+        "default":      "false",
+    },
+    
+    {   "id":           "preset",
+        "label":        "Handbrake Preset",
+        "type":         "enum",
+        "values":       ["Universal", "AppleTV", "Normal", "Classic", "Animation", "Film", "Television"],
+        "default":      "Film",
+    },
+    
+    {   "id":           "folder",
+        "label":        "Create a folder with same name as video?",
+        "type":         "bool",
+        "default":      "false",
+    },
+    
+    {   "id":           "subs",
+        "label":        "Subtitles",
+        "type":         "enum",
+        "values":       ["None", "eng", "fre", "ger", "ita", "pol", "rus"],
+        "default":      "None",
+    }
+]
